@@ -1,9 +1,11 @@
+<?php require("../config_main.php");?>
+<?php require("../css/librerias1.php");?>
 <!DOCTYPE html>
 <html>
 <head>
-    <?php require("../css/loadlibraries.php");?>
 
-    <title>Bienvenido al sistema</title>    
+
+  
 </head>
 <body class="metro" style="background-color: #efeae3">    
     <?php require("../encabezado.php");?>
@@ -35,10 +37,17 @@ $ALMACEN=$_GET['almacen'];
 if($myrowC['status']=='abierta' ){ //*******************Comienzo la validaci�n*****************
 $descripcionTransaccion="externos";
 ?>
+
+
+
+
+<?php 
+//$('#lista').html("<img src='/images/loading.gif' />");
+require("../css/librerias2.php");?>
 <script>
  $(document).ready(function() {     
         var $j = jQuery.noConflict();
-        $('#lista').html("<img src='/images/loading.gif' />");
+        
  	 $j("#lista").load("listaExternosA.php?numCorte=<?php echo $myrowC['numCorte'];?>&almacenDestino1=<?php echo $_GET['almacenDestino1'];?>&fecha2=<?php echo $fecha2;?>&fecha1=<?php echo $date;?>&almacen=<?php echo $ALMACEN;?>&tipoOrden=<?php echo $_GET['tipoOrden'];?>&descripcionTransaccion=<?php echo $descripcionTransaccion;?>&warehouse=<?php echo $_GET['warehouse'];?>&entidad=<?php echo $entidad;?>&basedatos=<?php echo $basedatos;?>");
    var refreshId = setInterval(function() {
       $j("#lista").load("listaExternosA.php?numCorte=<?php echo $myrowC['numCorte'];?>&almacenDestino1=<?php echo $_GET['almacenDestino1'];?>&fecha2=<?php echo $fecha2;?>&fecha1=<?php echo $date;?>&almacen=<?php echo $ALMACEN;?>&tipoOrden=<?php echo $_GET['tipoOrden'];?>&descripcionTransaccion=<?php echo $descripcionTransaccion;?>&warehouse=<?php echo $_GET['warehouse'];?>&entidad=<?php echo $entidad;?>&basedatos=<?php echo $basedatos;?>");
@@ -76,8 +85,10 @@ $descripcionTransaccion="externos";
         </div>
 
 </div>
-<?php require("../footer.php");?>
+
 </div>
    
+    
+<?php require("../footer.php");?>    
 </body>
 </html>

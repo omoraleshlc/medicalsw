@@ -6,7 +6,7 @@ $basedatos=$base->basedatos();
 $conexionManual=new MYSQL();
 $conexionManual->conecta();
 //**************************************************
-$date='2014-10-20';
+$date='2014-10-21';
 $entidad='01';
 $_GET['tipoOrden']='ordenesPendientes';
 $basedatos=$_GET['basedatos'];
