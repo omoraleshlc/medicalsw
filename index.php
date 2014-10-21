@@ -2,7 +2,7 @@
 <html>
 <head>
 <?php require("config_main.php");?>
-<?php require(CONSTANT_PATH_SIMA_RAIZ."/css/librerias1.php");?>
+<?php require("css/librerias1.php");?>
 
     <title>Bienvenido al sistema</title>
 
