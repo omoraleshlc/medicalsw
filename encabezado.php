@@ -1,6 +1,6 @@
 <div class="navigation-bar dark">
     <div class="navigation-bar-content container">
-        <a href="<?php echo CONSTANT_PATH_SIMA_RAIZ;?>/index.php" class="element"><span class="icon-home"></span> Inicio <sup>System 3.0</sup></a>
+        <a href="/medicalsw/index.php" class="element"><span class="icon-home"></span> Inicio <sup>System 3.0</sup></a>
         <span class="element-divider"></span>
 
         <a class="element1 pull-menu" href="/index.php"></a>
@@ -10,34 +10,59 @@
                 <ul class="dropdown-menu dark" data-role="dropdown">
                     <li><a href="ingresos/index.php">Caja <span class="icon-paypal on-right"></span></a></li>
                     <li><a href="facturacion/index.php">Facturación <span class="icon-credit-card on-right"></span></a></li>
-                    
+                    <li><a href="ingresos/index.php">Convenios</a></li>
+                    <li><a href="ingresos/index.php">Caja</a></li>
+                    <li><a href="ingresos/index.php">Cxc</a></li>
+                    <!--<li>
+                        <a href="#" class="dropdown-toggle">General CSS</a>
+                        <ul class="dropdown-menu dark" data-role="dropdown">
+                            <li><a href="global.html">Global styles</a></li>
+                            
+                        </ul>
+                    </li>-->
+                    <li class="divider"></li>
+                    <li><a href="ingresos/index.php">Cxp</a></li>
                 </ul>
             </li>
             <li>
                 <a class="dropdown-toggle"  href="#">Administración</a>
                 <ul class="dropdown-menu dark" data-role="dropdown">
-                    <li><a href="tiles.html">Tiles</a></li>
-                    
-                    
+                    <li><a href="tiles.html">Admisiones</a></li>
+                    <li><a href="tiles.html">Configuración</a></li>
+                    <li><a href="tiles.html">Gestión</a></li>
+                    <li><a href="protected/modules/ServiciosInstitucionales/modules/Sistemas/index.php">Sistemas</a></li>
+                    <li><a href="tiles.html">Soporte</a></li>
                 </ul>
             </li>
-                
             <li>
-                <a href="#" class="dropdown-toggle">Departamentos</a>
+                <a href="#" class="dropdown-toggle">Operaciones</a>
                 <ul class="dropdown-menu dark" data-role="dropdown">
-                    <li><a href="template-news-portal.html">News Portal (msn.com)</a></li>
+                    <li><a href="tiles.html">Consulta externa</a></li>
+                    <li><a href="tiles.html">Farmacia</a></li>
+                    <li><a href="tiles.html">Luz y vida</a></li>
+                    <li><a href="tiles.html">Medicina preventiva</a></li>
+                    <li class="divider"></li>
+                    <li><a href="tiles.html">Laboratorio</a></li>
+                    <li><a href="tiles.html">Diagnóstico</a></li>
+                    <li><a href="tiles.html">Prequirurgico</a></li>
+                    <li><a href="tiles.html">Procedimientos cirugía</a></li>
+                    <li><a href="tiles.html">Procedimientos otorrino</a></li>
+                    <li><a href="tiles.html">Procedimientos traumatología</a></li>
+                    <li><a href="tiles.html">Quirofan</a></li>
+                    <li><a href="tiles.html">Rayos x</a></li>
+                    <li><a href="tiles.html">Sala 1</a></li>
+                    <li><a href="tiles.html">Sala ecnt</a></li>
+                    <li><a href="tiles.html">Urgencias</a></li>
+                    <li><a href="tiles.html">Valoración</a></li>
+>>>>>>> Stashed changes
                 </ul>
             </li>
             
             <li>
-                <a class="dropdown-toggle"  href="#">Egresos</a>
+                <a class="dropdown-toggle"  href="#">Inventarios</a>
                 <ul class="dropdown-menu dark" data-role="dropdown">
-                    <li class="disabled"><a href="http://blog.metroui.net">Blog</a></li>
-                    <li class="disabled"><a href="http://forum.metroui.net">Community Forum</a></li>
-                    <li class="divider"></li>
-                    <li><a href="https://github.com/olton/Metro-UI-CSS">Github</a></li>
-                    <li class="divider"></li>
-                    <li><a href="https://github.com/olton/Metro-UI-CSS/blob/master/LICENSE">License</a></li>
+                   <li><a href="tiles.html">Inventario</a></li>
+                    <li><a href="tiles.html">Compras</a></li>
                 </ul>
             </li>
             

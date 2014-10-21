@@ -4,8 +4,8 @@
 //define("CONSTANT_PATH_SIMA", "/var/www/simaVT");
 define("CONSTANT_PATH_SIMA_RAIZ", "/medicalsw");
 //define("CONSTANT_PATH_CONFIGURACION", "/var/www/simaVT/configuracion");
-$usuario="omorales";
-$passwd="wolf3333";
+$usuario="root";
+$passwd="";
 $servidor="localhost";
 $basedatos="sima";   
 
