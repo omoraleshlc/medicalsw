@@ -38,6 +38,7 @@ $descripcionTransaccion="externos";
 <script>
  $(document).ready(function() {     
         var $j = jQuery.noConflict();
+        $('#lista').html("<img src='/images/loading.gif' />");
  	 $j("#lista").load("listaExternosA.php?numCorte=<?php echo $myrowC['numCorte'];?>&almacenDestino1=<?php echo $_GET['almacenDestino1'];?>&fecha2=<?php echo $fecha2;?>&fecha1=<?php echo $date;?>&almacen=<?php echo $ALMACEN;?>&tipoOrden=<?php echo $_GET['tipoOrden'];?>&descripcionTransaccion=<?php echo $descripcionTransaccion;?>&warehouse=<?php echo $_GET['warehouse'];?>&entidad=<?php echo $entidad;?>&basedatos=<?php echo $basedatos;?>");
    var refreshId = setInterval(function() {
       $j("#lista").load("listaExternosA.php?numCorte=<?php echo $myrowC['numCorte'];?>&almacenDestino1=<?php echo $_GET['almacenDestino1'];?>&fecha2=<?php echo $fecha2;?>&fecha1=<?php echo $date;?>&almacen=<?php echo $ALMACEN;?>&tipoOrden=<?php echo $_GET['tipoOrden'];?>&descripcionTransaccion=<?php echo $descripcionTransaccion;?>&warehouse=<?php echo $_GET['warehouse'];?>&entidad=<?php echo $entidad;?>&basedatos=<?php echo $basedatos;?>");
