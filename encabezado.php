@@ -37,24 +37,8 @@
             <li>
                 <a href="#" class="dropdown-toggle">Operaciones</a>
                 <ul class="dropdown-menu dark" data-role="dropdown">
-                    <li><a href="tiles.html">Consulta externa</a></li>
-                    <li><a href="tiles.html">Farmacia</a></li>
-                    <li><a href="tiles.html">Luz y vida</a></li>
-                    <li><a href="tiles.html">Medicina preventiva</a></li>
-                    <li class="divider"></li>
-                    <li><a href="tiles.html">Laboratorio</a></li>
-                    <li><a href="tiles.html">Diagnóstico</a></li>
-                    <li><a href="tiles.html">Prequirurgico</a></li>
-                    <li><a href="tiles.html">Procedimientos cirugía</a></li>
-                    <li><a href="tiles.html">Procedimientos otorrino</a></li>
-                    <li><a href="tiles.html">Procedimientos traumatología</a></li>
-                    <li><a href="tiles.html">Quirofan</a></li>
-                    <li><a href="tiles.html">Rayos x</a></li>
-                    <li><a href="tiles.html">Sala 1</a></li>
-                    <li><a href="tiles.html">Sala ecnt</a></li>
-                    <li><a href="tiles.html">Urgencias</a></li>
-                    <li><a href="tiles.html">Valoración</a></li>
->>>>>>> Stashed changes
+                    <li><a href="indexpaxcint.php">Pacientes internos</a></li>
+                    <li><a href="indexpaxext.php">pacientes externos</a></li>
                 </ul>
             </li>
             
