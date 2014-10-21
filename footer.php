@@ -1,4 +1,4 @@
-<!--<div align="center" id="footer">
+<div align="center" id="footer">
         <div class="bg-dark">
             
 
