@@ -50,6 +50,14 @@
                     <li><a href="template-news-portal.html">News Portal (msn.com)</a></li>
                 </ul>
             </li>
+            
+            <li>
+                <a href="#" class="dropdown-toggle">Departamentos</a>
+                <ul class="dropdown-menu dark" data-role="dropdown">
+                    <li><a href="template-news-portal.html">News Portal (msn.com)</a></li>
+                </ul>
+            </li>
+            
             <li>
                 <a class="dropdown-toggle"  href="#">Egresos</a>
                 <ul class="dropdown-menu dark" data-role="dropdown">
