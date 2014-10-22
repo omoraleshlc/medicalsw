@@ -11,8 +11,7 @@
                     <li><a href="ingresos/index.php">Caja <span class="icon-paypal on-right"></span></a></li>
                     <li><a href="facturacion/index.php">Facturación <span class="icon-credit-card on-right"></span></a></li>
                     <li><a href="ingresos/index.php">Convenios</a></li>
-                    <li><a href="ingresos/index.php">Caja</a></li>
-                    <li><a href="ingresos/index.php">Cxc</a></li>
+                    <li><a href="indexcxc.php">Cxc</a></li>
                     <!--<li>
                         <a href="#" class="dropdown-toggle">General CSS</a>
                         <ul class="dropdown-menu dark" data-role="dropdown">
